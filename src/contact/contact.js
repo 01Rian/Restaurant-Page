@@ -1,4 +1,5 @@
 import { renderPage } from '../index';
+import imgMap from '../assets/map.png';
 
 export function renderContactPage() {
   renderPage();
@@ -13,7 +14,7 @@ export function renderContactPage() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
     </div>
     <div class="contact-map">
-        <img src="../src/assets/map.png" alt="food-image">
+        <img src="${imgMap}" alt="food-image">
     </div>
     <div class="contact-card">
     <div>

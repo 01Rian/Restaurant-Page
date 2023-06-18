@@ -1,13 +1,14 @@
 import { renderHomePage } from './home/home';
 import { renderMenuPage } from './menu/menu';
 import { renderContactPage } from './contact/contact';
+import logo from './assets/logo.jpg';
 import './style.css';
 
 export function renderPage() {
   const imgLogo = document.createElement('div');
   imgLogo.classList.add('logo');
   imgLogo.innerHTML = `
-   <img src="../src/assets/logo.jpg">
+   <img src="${logo}">
   `;
 
   const header = document.createElement('div');

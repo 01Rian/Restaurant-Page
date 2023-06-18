@@ -1,4 +1,5 @@
 import { renderPage } from '../index';
+import imgTable from '../assets/table.jpg';
 
 export function renderHomePage() {
   renderPage();
@@ -9,7 +10,7 @@ export function renderHomePage() {
   sectionImg.classList.add('sectionHome');
   sectionImg.innerHTML = `
   <div>Food Blog Made For You</div>
-  <img src="../src/assets/table.jpg" alt="table-image">
+  <img src="${imgTable}" alt="table-image">
   `;
 
   const main = document.createElement('div');
